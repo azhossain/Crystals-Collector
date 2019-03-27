@@ -1,6 +1,4 @@
-# Crystals-Collector
- is a random number game.
- How to play instruction is below-
+# Crystals-Collector  is a random number game.
 
 ******** Game Instructions ********
 		

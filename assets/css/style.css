@@ -3,9 +3,9 @@ body{
 	background-image: url("../images/background.png")
 }
 div{
-	background-color:rgb(217, 255, 47);
+	background-color:lemonchiffon;
 	margin: 10px;
-	width: 25%
+	width: 50%
 }
 div{
 	border: solid 2px rgb(195, 130, 238);
@@ -13,7 +13,7 @@ div{
 }
 h1, h3, span{
 	font-weight: bold;
-	text-align: center;
+	text-align: left;
 }
 h1{
 	font-size: 30pt;
@@ -30,23 +30,26 @@ div.header, div.gems{
 	background-color: #e0e0eb;
 }
 div.header, div.instructions{
-	width: 50%;
+	width: 95%;
 }
 /* Classes */
 .numberToMatch, .winsAndLosses{
-	float: left;
-	width: 23%;
-	height: 50px;
-}
-.userTotal{
-	width: 23%;
+	float: center;
+	width: 50%;
 	height: 30px;
 }
+.userTotal{
+	float: center;
+	width: 50%;
+	height: 20px;
+}
 .gems{
+	float: center;
 	clear: both;
 }
 .gemImage{
-	height: 50px;
+	float: center;
+	height: 40px;
 	margin: 10px;
 }
 /* IDs */
